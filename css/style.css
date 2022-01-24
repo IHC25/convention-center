@@ -1,3 +1,15 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;500;700&display=swap");
+
+/* arrange event  */
+.event-btn {
+  background-color: white;
+  color: rgba(63, 135, 245, 1);
+  font-weight: 700;
+  border: white;
+  border-radius: 24px;
+}
+
 /* our package */
 .custom-card p {
   color: rgba(132, 129, 153, 1);
@@ -25,5 +37,14 @@
     transform: scaleX(2);
     width: 360px;
     height: 586px;
+  }
+  .arrange-event-cover img {
+    transform: scaleX(2);
+    width: 360px;
+    height: 586px;
+  }
+  .event-btn {
+    font-size: smaller;
+    padding: 5px 0;
   }
 }
