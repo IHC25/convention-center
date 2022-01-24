@@ -36,6 +36,22 @@ body {
 .hot-btn {
   transform: translate(-50%, -20%);
 }
+/* faq */
+.custom-accordion p {
+  color: rgba(126, 132, 140, 1);
+}
+
+/* footer  */
+.custom-footer {
+  background-color: rgba(11, 13, 23, 1);
+}
+.custom-footer small,
+p {
+  color: #d9dbe1;
+}
+.custom-footer p {
+  font-size: 1.12rem;
+}
 /* media queries */
 @media only screen and (max-width: 576px) {
   .image-slider img {
