@@ -12,12 +12,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- css stylsheets  -->
+    <link rel="stylesheet" href="css/style.css" />
     <!-- font awesome  -->
     <script
       src="https://kit.fontawesome.com/105676b967.js"
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <!-- header starts  -->
     <header>
@@ -57,7 +60,119 @@
       </nav>
     </header>
     <!-- header ends  -->
-    <main></main>
+    <main>
+      <!-- image slider  -->
+      <section class="container-fluid p-0">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item image-slider active">
+              <img src="images/banner.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h2 class="text-center">
+                  The perfect venue for your <br />
+                  next event
+                </h2>
+                <p class="text-center">
+                  We are the best convention center in Sylhet. Welcome to Aman
+                  Ullah Convention Center.
+                </p>
+                <a
+                  class="btn btn-white bg-white text-primary fw-bold px-5"
+                  href="https://www.bashundharaconvention.com/rates-and-fees"
+                  target="_blank"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item image-slider">
+              <img src="images/banner-2.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h2>
+                  The perfect venue for your <br />
+                  next event
+                </h2>
+                <p class="text-center">
+                  We are the best convention center in Sylhet. Welcome to Aman
+                  Ullah Convention Center.
+                </p>
+                <a
+                  class="btn btn-white bg-white text-primary fw-bold px-5"
+                  href="https://www.bashundharaconvention.com/rates-and-fees"
+                  target="_blank"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item image-slider">
+              <img src="images/banner-3.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h2>
+                  The perfect venue for your <br />
+                  next event
+                </h2>
+                <p class="text-center">
+                  We are the best convention center in Sylhet. Welcome to Aman
+                  Ullah Convention Center.
+                </p>
+                <a
+                  class="btn btn-white bg-white text-primary fw-bold px-5"
+                  href="https://www.bashundharaconvention.com/rates-and-fees"
+                  target="_blank"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
 
     <!-- footer -->
     <footer>
